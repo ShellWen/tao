@@ -1,5 +1,11 @@
 # Changelog
 
+## \[0.24.1]
+
+- [`5eb2124e`](https://github.com/tauri-apps/tao/commit/5eb2124e706b57f236a42503d530f9671cd0a2cf)([#852](https://github.com/tauri-apps/tao/pull/852)) Enable macOS secure state restoration on OS versions that support it. This avoids
+  'WARNING: Secure coding is not enabled for restorable state!' on macOS Sonoma.
+- [`29b01bff`](https://github.com/tauri-apps/tao/commit/29b01bff2b547ca5b6bba57584c9c7cc2b93c098)([#849](https://github.com/tauri-apps/tao/pull/849)) On Windows, remove `SetWindowTheme` call with `DarkMode_Explorer` theme which fixes a glitch downstream in `muda` crate when manually drawing the menu bar.
+
 ## \[0.24.0]
 
 - [`43c94f0b`](https://github.com/tauri-apps/tao/commit/43c94f0b2021d3831846c53bfd268cdda2c87b51)([#830](https://github.com/tauri-apps/tao/pull/830)) This patch contains a couple of changes to how the anroid macros:
