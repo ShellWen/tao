@@ -100,7 +100,7 @@ impl ShortcutManager {
                     keycode,
                     modifiers | m,
                     root,
-                    0,
+                    1,
                     xlib::GrabModeAsync,
                     xlib::GrabModeAsync,
                   );
